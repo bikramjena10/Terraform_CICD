@@ -7,6 +7,6 @@ resource "aws_instance" "dev" {
     instance_type = "t2.micro"
     key_name="linuxpra"
     tags = {
-      Name = "dev1234"
+      Name = "dev12345"
     }
 }
